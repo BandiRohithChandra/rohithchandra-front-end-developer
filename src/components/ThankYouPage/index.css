@@ -1,0 +1,33 @@
+.thankyou-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 100vh;
+}
+
+.hello-heading{
+    font-size: 15px;
+}
+
+.main-heading{
+    font-size: 45px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.description{
+    font-size: 25px;
+    color: #000000;
+}
+
+.span-element{
+    color: #165315;
+}
+
+.home-button{
+    background-color: #165315;
+    border-radius: 10px;
+    color: #ffffff;
+}

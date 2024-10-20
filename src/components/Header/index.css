@@ -1,0 +1,161 @@
+.free-shipping-container{
+    background-color: #165315;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.content{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+
+}
+
+.contact{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: right;
+    color: #ffffff;
+
+}
+
+
+.input-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input-element {
+    background-color: transparent;
+    border-width: 0 0 1px 0;
+    width: 100%;
+    padding: 10px 40px;  
+    outline: none;
+}
+.input-container{
+    position: relative;
+    max-width: 370px;
+    margin: auto;
+}
+.input-container::before {
+    background-image: url("https://i.imgur.com/G7iFKQA.png");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    background-size: 19px;
+    width: 19px;
+    height: 19px;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.input-container::after {
+    background-image: url("https://i.imgur.com/R2ZjwNt.png") !important;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+
+.image-container{
+    display: flex;
+}
+
+.profile-section-container{
+    padding: 20px;
+}
+
+.chaperone-img{
+    width: 60px;
+    margin: 5px;
+}
+
+.header-heading{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.list-of-chaperone{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.list{
+    color: #000000;
+    padding: 15px;
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+.end-section{
+    padding: 10px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.profile-img{
+    width: 32px;
+    margin-left: 15px;
+}
+
+.cart-img{
+    width: 28px;
+   
+}
+
+.profile-name{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: right;
+
+}
+
+.cart-name{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+
+}
+
+.cart-png{
+    margin-left: 12px;
+}
+
+.header-link {
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: bold; 
+}
+
+.header-link:hover {
+    text-decoration: underline; 
+}
